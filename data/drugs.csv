@@ -1,0 +1,10 @@
+drug_id,name,target,mode,strength,notes
+gefitinib,Gefitinib,EGFR,inhibit,0.95,Prototype EGFR inhibitor with strong activity in EGFR-addicted models
+capmatinib,Capmatinib,MET,inhibit,0.95,Prototype MET inhibitor for resistance bypass signaling
+alpelisib,Alpelisib,PI3K,inhibit,0.65,PI3K pathway inhibitor
+capivasertib,Capivasertib,AKT,inhibit,0.60,AKT pathway inhibitor
+trametinib,Trametinib,MEK,inhibit,0.75,MEK inhibitor
+ulixertinib,Ulixertinib,ERK,inhibit,0.70,ERK inhibitor
+everolimus,Everolimus,MTOR,inhibit,0.65,mTOR inhibitor
+nutlin3,Nutlin-3,MDM2,inhibit,0.75,p53 reactivation through MDM2 inhibition
+venetoclax,Venetoclax,BCL2,inhibit,0.80,Direct anti-apoptotic BCL2 inhibitor

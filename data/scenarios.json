@@ -1,0 +1,49 @@
+{
+  "default": "egfr_driven_generic_cancer",
+  "scenarios": {
+    "egfr_driven_generic_cancer": {
+      "description": "Small generic cancer-cell twin with elevated EGFR signaling and partial PTEN loss.",
+      "fixed": {
+        "EGFR": 0.9,
+        "PTEN": 0.15,
+        "DNA_DAMAGE": 0.1
+      }
+    },
+    "stress_challenge": {
+      "description": "Same oncogenic background under stronger DNA damage signaling.",
+      "fixed": {
+        "EGFR": 0.9,
+        "PTEN": 0.15,
+        "DNA_DAMAGE": 0.75
+      }
+    },
+    "controlled_state": {
+      "description": "Less oncogenic comparison state with lower EGFR signaling and preserved PTEN.",
+      "fixed": {
+        "EGFR": 0.45,
+        "PTEN": 0.6,
+        "DNA_DAMAGE": 0.2
+      }
+    },
+    "hcc827_parental": {
+      "description": "Real-world inspired EGFR-mutant NSCLC use case based on HCC827 parental cells with exon 19 deleted EGFR and low MET bypass signaling.",
+      "fixed": {
+        "EGFR": 0.98,
+        "MET": 0.08,
+        "PTEN": 0.55,
+        "P53": 0.08,
+        "DNA_DAMAGE": 0.12
+      }
+    },
+    "hcc827_gr_met_resistant": {
+      "description": "Real-world inspired resistant state based on HCC827 gefitinib-resistant cells with MET-driven ERBB3-PI3K bypass signaling.",
+      "fixed": {
+        "EGFR": 0.98,
+        "MET": 0.95,
+        "PTEN": 0.45,
+        "P53": 0.08,
+        "DNA_DAMAGE": 0.12
+      }
+    }
+  }
+}

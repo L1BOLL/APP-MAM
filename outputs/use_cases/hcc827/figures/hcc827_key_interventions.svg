@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+.title { font-size: 22px; font-weight: 700; }
+.label { font-size: 14px; }
+.value { font-size: 13px; font-weight: 600; }
+.axis { stroke: #444; stroke-width: 1.25; }
+.grid { stroke: #bbb; stroke-dasharray: 4 4; stroke-width: 0.8; }
+</style>
+<rect x="0" y="0" width="900" height="420" fill="#ffffff"/>
+<text class="title" x="450.0" y="32" text-anchor="middle">HCC827 Key Intervention Effect on Apoptosis</text>
+<line class="axis" x1="515" y1="45" x2="515" y2="375"/>
+<line class="grid" x1="190.0" y1="55" x2="190.0" y2="365"/>
+<text class="label" x="190.0" y="393" text-anchor="middle">-0.12</text>
+<line class="grid" x1="352.5" y1="55" x2="352.5" y2="365"/>
+<text class="label" x="352.5" y="393" text-anchor="middle">-0.06</text>
+<line class="grid" x1="515.0" y1="55" x2="515.0" y2="365"/>
+<text class="label" x="515.0" y="393" text-anchor="middle">0.00</text>
+<line class="grid" x1="677.5" y1="55" x2="677.5" y2="365"/>
+<text class="label" x="677.5" y="393" text-anchor="middle">0.06</text>
+<line class="grid" x1="840.0" y1="55" x2="840.0" y2="365"/>
+<text class="label" x="840.0" y="393" text-anchor="middle">0.12</text>
+<text class="label" x="160" y="92.44" text-anchor="end">Parental: gefitinib</text>
+<rect x="515.0" y="55" width="200.0" height="52" rx="4" fill="#2ca02c"/>
+<text class="value" x="723.0" y="92.44" text-anchor="start">0.077</text>
+<text class="label" x="160" y="156.44" text-anchor="end">Parental: capmatinib</text>
+<rect x="515.0" y="119" width="11.8" height="52" rx="4" fill="#2ca02c"/>
+<text class="value" x="534.8" y="156.44" text-anchor="start">0.004</text>
+<text class="label" x="160" y="220.44" text-anchor="end">Resistant: gefitinib</text>
+<rect x="515.0" y="183" width="247.1" height="52" rx="4" fill="#2ca02c"/>
+<text class="value" x="770.1" y="220.44" text-anchor="start">0.095</text>
+<text class="label" x="160" y="284.44" text-anchor="end">Resistant: capmatinib</text>
+<rect x="515.0" y="247" width="111.3" height="52" rx="4" fill="#2ca02c"/>
+<text class="value" x="634.3" y="284.44" text-anchor="start">0.043</text>
+<text class="label" x="160" y="348.44" text-anchor="end">Resistant: gefitinib+capmatinib</text>
+<rect x="515.0" y="311" width="325.0" height="52" rx="4" fill="#2ca02c"/>
+<text class="value" x="848.0" y="348.44" text-anchor="start">0.124</text>
+</svg>

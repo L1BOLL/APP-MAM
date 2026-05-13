@@ -1,0 +1,5 @@
+metric,hcc827_parental,hcc827_gr_met_resistant,interpretation
+baseline_malignancy,0.6431,0.6854,Resistant state should remain more malignant or less reversible.
+gefitinib_delta_malignancy,-0.0654,-0.0813,EGFR inhibition remains active but is expected to lose relative sufficiency in resistance.
+capmatinib_delta_malignancy,-0.0038,-0.0362,MET inhibition should matter much more in the resistant state.
+gefitinib_capmatinib_delta_malignancy,-0.0661,-0.1058,EGFR + MET co-targeting should outperform EGFR alone in the resistant state.

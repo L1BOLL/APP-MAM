@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+.title { font-size: 22px; font-weight: 700; }
+.label { font-size: 14px; }
+.value { font-size: 13px; font-weight: 600; }
+.axis { stroke: #444; stroke-width: 1.25; }
+.grid { stroke: #bbb; stroke-dasharray: 4 4; stroke-width: 0.8; }
+</style>
+<rect x="0" y="0" width="900" height="420" fill="#ffffff"/>
+<text class="title" x="450.0" y="32" text-anchor="middle">Top Dynamic Leverage Points in MET-Resistant HCC827</text>
+<line class="axis" x1="515" y1="45" x2="515" y2="375"/>
+<line class="grid" x1="190.0" y1="55" x2="190.0" y2="365"/>
+<text class="label" x="190.0" y="393" text-anchor="middle">-0.13</text>
+<line class="grid" x1="352.5" y1="55" x2="352.5" y2="365"/>
+<text class="label" x="352.5" y="393" text-anchor="middle">-0.06</text>
+<line class="grid" x1="515.0" y1="55" x2="515.0" y2="365"/>
+<text class="label" x="515.0" y="393" text-anchor="middle">0.00</text>
+<line class="grid" x1="677.5" y1="55" x2="677.5" y2="365"/>
+<text class="label" x="677.5" y="393" text-anchor="middle">0.06</text>
+<line class="grid" x1="840.0" y1="55" x2="840.0" y2="365"/>
+<text class="label" x="840.0" y="393" text-anchor="middle">0.13</text>
+<text class="label" x="160" y="75.16" text-anchor="end">AKT</text>
+<rect x="190.0" y="55" width="325.0" height="28" rx="4" fill="#d1495b"/>
+<text class="value" x="182.0" y="75.16" text-anchor="end">-0.126</text>
+<text class="label" x="160" y="115.16" text-anchor="end">PI3K</text>
+<rect x="282.0" y="95" width="233.0" height="28" rx="4" fill="#d1495b"/>
+<text class="value" x="274.0" y="115.16" text-anchor="end">-0.090</text>
+<text class="label" x="160" y="155.16" text-anchor="end">BCL2</text>
+<rect x="356.0" y="135" width="159.0" height="28" rx="4" fill="#d1495b"/>
+<text class="value" x="348.0" y="155.16" text-anchor="end">-0.062</text>
+<text class="label" x="160" y="195.16" text-anchor="end">EGFR</text>
+<rect x="360.9" y="175" width="154.1" height="28" rx="4" fill="#d1495b"/>
+<text class="value" x="352.9" y="195.16" text-anchor="end">-0.060</text>
+<text class="label" x="160" y="235.16" text-anchor="end">ERBB3</text>
+<rect x="377.9" y="215" width="137.1" height="28" rx="4" fill="#d1495b"/>
+<text class="value" x="369.9" y="235.16" text-anchor="end">-0.053</text>
+<text class="label" x="160" y="275.16" text-anchor="end">MTOR</text>
+<rect x="392.6" y="255" width="122.4" height="28" rx="4" fill="#d1495b"/>
+<text class="value" x="384.6" y="275.16" text-anchor="end">-0.048</text>
+<text class="label" x="160" y="315.16" text-anchor="end">ERK</text>
+<rect x="434.6" y="295" width="80.4" height="28" rx="4" fill="#d1495b"/>
+<text class="value" x="426.6" y="315.16" text-anchor="end">-0.031</text>
+<text class="label" x="160" y="355.16" text-anchor="end">MET</text>
+<rect x="453.4" y="335" width="61.6" height="28" rx="4" fill="#d1495b"/>
+<text class="value" x="445.4" y="355.16" text-anchor="end">-0.024</text>
+</svg>

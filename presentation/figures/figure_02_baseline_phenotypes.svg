@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="460" viewBox="0 0 980 460">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+.title { font-size: 22px; font-weight: 700; }
+.axis { stroke: #444; stroke-width: 1.25; }
+.label { font-size: 14px; }
+.legend { font-size: 13px; }
+</style>
+<rect x="0" y="0" width="980" height="460" fill="#ffffff"/>
+<text class="title" x="490.0" y="34" text-anchor="middle">Baseline Phenotype Comparison: HCC827 Parental vs MET-Resistant</text>
+<line class="axis" x1="90" y1="380" x2="940" y2="380"/>
+<line class="axis" x1="90" y1="70" x2="90" y2="380"/>
+<line x1="85" y1="380.0" x2="940" y2="380.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="385.0" text-anchor="end">0.00</text>
+<line x1="85" y1="318.0" x2="940" y2="318.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="323.0" text-anchor="end">0.14</text>
+<line x1="85" y1="256.0" x2="940" y2="256.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="261.0" text-anchor="end">0.28</text>
+<line x1="85" y1="194.0" x2="940" y2="194.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="199.0" text-anchor="end">0.42</text>
+<line x1="85" y1="132.0" x2="940" y2="132.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="137.0" text-anchor="end">0.56</text>
+<line x1="85" y1="70.0" x2="940" y2="70.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="75.0" text-anchor="end">0.70</text>
+<rect x="113.8" y="109.7" width="55.2" height="270.3" fill="#1f77b4" rx="4"/>
+<rect x="175.0" y="93.4" width="55.2" height="286.6" fill="#ff7f0e" rx="4"/>
+<text class="label" x="175.0" y="408" text-anchor="middle">Proliferation</text>
+<rect x="283.8" y="89.9" width="55.2" height="290.1" fill="#1f77b4" rx="4"/>
+<rect x="345.0" y="70.0" width="55.2" height="310.0" fill="#ff7f0e" rx="4"/>
+<text class="label" x="345.0" y="408" text-anchor="middle">Survival</text>
+<rect x="453.8" y="247.6" width="55.2" height="132.4" fill="#1f77b4" rx="4"/>
+<rect x="515.0" y="269.9" width="55.2" height="110.1" fill="#ff7f0e" rx="4"/>
+<text class="label" x="515.0" y="408" text-anchor="middle">Apoptosis</text>
+<rect x="623.8" y="236.2" width="55.2" height="143.8" fill="#1f77b4" rx="4"/>
+<rect x="685.0" y="263.2" width="55.2" height="116.8" fill="#ff7f0e" rx="4"/>
+<text class="label" x="685.0" y="408" text-anchor="middle">Stress</text>
+<rect x="793.8" y="94.5" width="55.2" height="285.5" fill="#1f77b4" rx="4"/>
+<rect x="855.0" y="75.7" width="55.2" height="304.3" fill="#ff7f0e" rx="4"/>
+<text class="label" x="855.0" y="408" text-anchor="middle">Malignancy</text>
+<rect x="90" y="44" width="16" height="16" fill="#1f77b4" rx="3"/>
+<text class="legend" x="114" y="57">HCC827 parental</text>
+<rect x="300" y="44" width="16" height="16" fill="#ff7f0e" rx="3"/>
+<text class="legend" x="324" y="57">HCC827 MET-resistant</text>
+</svg>

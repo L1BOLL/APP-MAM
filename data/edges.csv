@@ -1,0 +1,45 @@
+source,target,sign,weight,evidence
+EGFR,GRB2_SOS,activation,0.90,Canonical receptor to adaptor signaling
+EGFR,PI3K,activation,0.80,Canonical RTK activation of PI3K
+EGFR,ERBB3,activation,0.30,EGFR family signaling can transactivate ERBB3
+EGFR,STAT3,activation,0.40,Condensed growth factor to STAT3 activation link
+MET,ERBB3,activation,1.00,MET amplification can maintain ERBB3 signaling under EGFR inhibition
+ERBB3,PI3K,activation,0.95,ERBB3 strongly couples RTK input to PI3K survival signaling
+GRB2_SOS,RAS,activation,0.90,Adaptor-mediated RAS activation
+RAS,RAF,activation,0.90,Canonical MAPK cascade
+RAF,MEK,activation,0.90,Canonical MAPK cascade
+MEK,ERK,activation,0.90,Canonical MAPK cascade
+ERK,MYC,activation,0.60,ERK supports MYC transcriptional output
+ERK,CCND1,activation,0.60,ERK promotes cyclin D1 expression
+ERK,MDM2,activation,0.30,ERK can support p53 restraint indirectly
+ERK,BCL2,activation,0.30,MAPK signaling can increase survival tone
+PI3K,AKT,activation,0.90,Canonical PI3K to AKT signaling
+PTEN,PI3K,inhibition,0.90,PTEN antagonizes PI3K pathway activity
+AKT,MTOR,activation,0.80,Canonical AKT to mTOR signaling
+AKT,BAD,inhibition,0.70,AKT suppresses pro-apoptotic BAD activity
+AKT,BAX,inhibition,0.40,AKT suppresses apoptotic competence
+AKT,MDM2,activation,0.70,AKT stabilizes MDM2 and restrains p53
+AKT,NFKB,activation,0.60,AKT supports NFkB survival signaling
+AKT,CCND1,activation,0.50,AKT promotes cell-cycle progression
+AKT,MYC,activation,0.40,AKT supports growth transcriptional output
+MET,GRB2_SOS,activation,0.75,MET can partially sustain MAPK signaling
+MTOR,MYC,activation,0.40,mTOR supports growth and translation programs
+MTOR,BCL2,activation,0.50,mTOR contributes to survival bias
+STAT3,BCL2,activation,0.50,STAT3 supports anti-apoptotic signaling
+STAT3,CCND1,activation,0.40,STAT3 contributes to proliferative signaling
+NFKB,BCL2,activation,0.60,NFkB promotes anti-apoptotic programs
+NFKB,CCND1,activation,0.30,NFkB contributes to growth programs
+DNA_DAMAGE,P53,activation,0.80,Genotoxic stress activates p53
+MDM2,P53,inhibition,0.90,Canonical p53 negative feedback restraint
+P53,P21,activation,0.80,p53 induces cell-cycle arrest program
+P53,BAX,activation,0.70,p53 induces apoptotic effector signaling
+P53,CASP9,activation,0.40,p53 promotes intrinsic apoptosis competence
+P53,CCND1,inhibition,0.50,p53 suppresses proliferative progression
+P21,CCND1,inhibition,0.80,p21 blocks cell-cycle commitment
+BAD,BCL2,inhibition,0.70,BAD antagonizes anti-apoptotic BCL2
+BAX,CASP9,activation,0.60,BAX supports intrinsic caspase activation
+BCL2,BAX,inhibition,0.70,BCL2 restrains mitochondrial apoptosis
+BCL2,CASP9,inhibition,0.80,BCL2 restrains caspase initiation
+CASP9,CASP3,activation,0.90,Intrinsic apoptosis execution cascade
+CASP3,MYC,inhibition,0.60,Apoptosis opposes sustained growth output
+CASP3,CCND1,inhibition,0.60,Apoptosis opposes proliferation commitment

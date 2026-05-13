@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="460" viewBox="0 0 980 460">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; fill: #1a1a1a; }
+.title { font-size: 22px; font-weight: 700; }
+.axis { stroke: #444; stroke-width: 1.25; }
+.label { font-size: 14px; }
+.legend { font-size: 13px; }
+</style>
+<rect x="0" y="0" width="980" height="460" fill="#ffffff"/>
+<text class="title" x="490.0" y="34" text-anchor="middle">Top Single-Drug Malignancy Reduction by Scenario</text>
+<line class="axis" x1="90" y1="380" x2="940" y2="380"/>
+<line class="axis" x1="90" y1="70" x2="90" y2="380"/>
+<line x1="85" y1="380.0" x2="940" y2="380.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="385.0" text-anchor="end">0.00</text>
+<line x1="85" y1="318.0" x2="940" y2="318.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="323.0" text-anchor="end">0.02</text>
+<line x1="85" y1="256.0" x2="940" y2="256.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="261.0" text-anchor="end">0.05</text>
+<line x1="85" y1="194.0" x2="940" y2="194.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="199.0" text-anchor="end">0.07</text>
+<line x1="85" y1="132.0" x2="940" y2="132.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="137.0" text-anchor="end">0.09</text>
+<line x1="85" y1="70.0" x2="940" y2="70.0" stroke="#d7d7d7" stroke-dasharray="4 4"/>
+<text class="label" x="80" y="75.0" text-anchor="end">0.12</text>
+<rect x="119.8" y="207.9" width="70.5" height="172.1" fill="#1f77b4" rx="4"/>
+<rect x="196.2" y="166.1" width="70.5" height="213.9" fill="#ff7f0e" rx="4"/>
+<text class="label" x="196.2" y="408" text-anchor="middle">gefitinib</text>
+<rect x="332.2" y="370.0" width="70.5" height="10.0" fill="#1f77b4" rx="4"/>
+<rect x="408.8" y="284.7" width="70.5" height="95.3" fill="#ff7f0e" rx="4"/>
+<text class="label" x="408.8" y="408" text-anchor="middle">capmatinib</text>
+<rect x="544.8" y="157.4" width="70.5" height="222.6" fill="#1f77b4" rx="4"/>
+<rect x="621.2" y="70.0" width="70.5" height="310.0" fill="#ff7f0e" rx="4"/>
+<text class="label" x="621.2" y="408" text-anchor="middle">capivasertib</text>
+<rect x="757.2" y="217.1" width="70.5" height="162.9" fill="#1f77b4" rx="4"/>
+<rect x="833.8" y="206.6" width="70.5" height="173.4" fill="#ff7f0e" rx="4"/>
+<text class="label" x="833.8" y="408" text-anchor="middle">venetoclax</text>
+<rect x="90" y="44" width="16" height="16" fill="#1f77b4" rx="3"/>
+<text class="legend" x="114" y="57">Parental</text>
+<rect x="300" y="44" width="16" height="16" fill="#ff7f0e" rx="3"/>
+<text class="legend" x="324" y="57">Resistant</text>
+</svg>

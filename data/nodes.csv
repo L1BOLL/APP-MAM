@@ -1,0 +1,26 @@
+id,name,type,basal,description
+EGFR,Epidermal growth factor receptor,receptor,0.40,Upstream receptor tyrosine kinase driving oncogenic signaling
+ERBB3,ERBB3 HER3 receptor,receptor,0.20,Receptor partner that can relay RTK signaling into PI3K survival signaling
+MET,MET receptor tyrosine kinase,receptor,0.15,Alternative receptor tyrosine kinase mediating EGFR inhibitor resistance
+GRB2_SOS,GRB2 SOS complex,adapter,0.20,Adapter complex linking EGFR to RAS activation
+RAS,RAS GTPase,small_gtpase,0.20,Core proliferative switch downstream of receptor signaling
+RAF,RAF kinase,kinase,0.20,MAPK cascade kinase downstream of RAS
+MEK,MEK kinase,kinase,0.20,MAPK cascade kinase downstream of RAF
+ERK,ERK kinase,kinase,0.20,Mitogenic kinase regulating growth transcription programs
+PI3K,PI3K kinase,kinase,0.20,Lipid kinase driving AKT pathway activity
+AKT,AKT kinase,kinase,0.20,Pro-survival kinase downstream of PI3K
+MTOR,mTOR kinase,kinase,0.20,Growth and anabolic signaling hub downstream of AKT
+PTEN,PTEN phosphatase,tumor_suppressor,0.60,Tumor suppressor opposing PI3K signaling
+MDM2,MDM2 ubiquitin ligase,regulator,0.40,Negative regulator of p53
+P53,p53,tumor_suppressor,0.30,Stress-responsive tumor suppressor regulating arrest and apoptosis
+P21,p21,cell_cycle_regulator,0.20,Cell-cycle brake downstream of p53
+MYC,MYC transcription factor,transcription_factor,0.20,Oncogenic transcription factor promoting proliferation
+CCND1,Cyclin D1,cell_cycle_regulator,0.20,Proliferation driver controlling G1 progression
+BCL2,BCL2,apoptosis_regulator,0.30,Anti-apoptotic survival protein
+BAD,BAD,apoptosis_regulator,0.30,Pro-apoptotic regulator antagonized by AKT
+BAX,BAX,apoptosis_regulator,0.20,Pro-apoptotic effector downstream of p53
+CASP9,Caspase 9,protease,0.20,Initiator caspase in intrinsic apoptosis
+CASP3,Caspase 3,protease,0.10,Executioner caspase marking apoptotic commitment
+NFKB,NFkB,transcription_factor,0.20,Inflammatory and survival transcription factor
+STAT3,STAT3,transcription_factor,0.20,Growth and survival transcription factor
+DNA_DAMAGE,DNA damage signal,stress_input,0.10,Context node representing genotoxic stress
