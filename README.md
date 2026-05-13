@@ -51,9 +51,6 @@ python run_presentation.py
 
 ## Where to look first
 
-- `final_report.md` for the project summary
-- `handoff.pdf` for the final French scientific note
-- `handoff.tex` for the LaTeX source of that note
 - `presentation/` for figures, slide order, and presenter notes
 - `outputs/use_cases/hcc827/` for the HCC827 comparison results
 
